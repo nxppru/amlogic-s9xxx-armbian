@@ -16,7 +16,7 @@ on:
         default: "nxppru"
         type: choice
         options:
-          - unifreq
+          - nxppru
           - codesnas
       kernel_version:
         description: "Select kernel version"
