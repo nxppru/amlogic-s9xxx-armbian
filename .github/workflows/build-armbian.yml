@@ -21,7 +21,8 @@ on:
         required: false
         default: "all"
         type: choice
-        options:          
+        options:
+          - all
           - s905l3a
           - s905l3a-cm311
           - s905l3a-m401a          
@@ -31,6 +32,7 @@ on:
         default: "6.1.y_6.12.y"
         type: choice
         options:
+          - all
           - 5.4.y
           - 5.10.y
           - 5.15.y
