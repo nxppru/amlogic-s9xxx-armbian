@@ -22,7 +22,6 @@ on:
         default: "all"
         type: choice
         options:
-          - all
           - s905l3a
           - s905l3a-cm311
           - s905l3a-m401a          
@@ -62,9 +61,6 @@ on:
         type: choice
         options:
           - stable
-          - flippy
-          - dev
-          - beta
       armbian_fstype:
         description: "Select armbian rootfs type."
         required: false
