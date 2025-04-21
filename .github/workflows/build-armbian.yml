@@ -24,6 +24,7 @@ on:
         type: choice
         options:
           - all
+          - s905w_s905x_s905x-b860h_s905x-t95_s905x2_s905x3
           - s905l3a
           - s905l3a-cm311
           - s905l3a-m401a          
