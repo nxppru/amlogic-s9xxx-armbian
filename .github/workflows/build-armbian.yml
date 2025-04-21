@@ -19,16 +19,17 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "all"
+        default: "s905l3a"
         type: choice
         options:
+          - all
           - s905l3a
           - s905l3a-cm311
           - s905l3a-m401a          
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "6.1.y_6.12.y"
+        default: "6.6.y"
         type: choice
         options:
           - 5.4.y
