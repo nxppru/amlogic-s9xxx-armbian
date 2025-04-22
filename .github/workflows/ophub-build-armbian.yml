@@ -15,8 +15,6 @@ on:
         default: "jammy"
         type: choice
         options:
-          - all
-          - jammy_noble_bookworm_bullseye
           - jammy
           - noble
           - bookworm
